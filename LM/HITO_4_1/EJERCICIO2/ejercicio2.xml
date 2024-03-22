@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libros SYSTEM "ejercicio2.dtd">
+<libros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/D:/ETHAZI/LENGUAJES/HITO_4_1/EJERCICIO2/ejercicio2.xsd">
+        <libro>
+              <titulo>libro1</titulo>
+              <disponibilidad tiempo="tiempo" unidad="unidad"></disponibilidad>
+              <autor>autor1</autor>
+              <formato>formato1</formato>
+              <publicado>publicado1</publicado>
+              <precio cantidad="cant" moneda="moneda"></precio>
+              <descuento cantidad="cant"></descuento>
+              <link href="www.link.com"></link>
+        </libro>
+        <libro>
+              <titulo>libro2</titulo>
+              <disponibilidad tiempo="tiempo" unidad="unidad"></disponibilidad>
+              <autor>autor2</autor>
+              <formato>formato2</formato>
+              <publicado>publicado2</publicado>
+              <precio cantidad="cant" moneda="moneda"></precio>
+              <descuento cantidad="cant"></descuento>
+              <link href="www.link.com"></link>
+        </libro>
+        <libro>
+              <titulo>libro3</titulo>
+              <disponibilidad tiempo="tiempo" unidad="unidad"></disponibilidad>
+              <autor>autor3</autor>
+              <formato>formato3</formato>
+              <publicado>publicado3</publicado>
+              <precio cantidad="cant" moneda="moneda"></precio>
+              <descuento cantidad="cant"></descuento>
+              <link href="www.link.com"></link>
+        </libro>
+</libros>

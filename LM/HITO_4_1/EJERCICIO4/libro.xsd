@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="libro">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="titulo" type="xs:string"/>
+        <xs:element name="resumen" type="xs:string"/>
+        <xs:element name="categorias">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="categoria" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="precio">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute name="moneda" type="xs:string" use="required"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="isbn" type="xs:string" use="required"/>
+      <xs:attribute name="fecha" type="xs:string" use="required"/>
+      <xs:attribute name="paginas" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

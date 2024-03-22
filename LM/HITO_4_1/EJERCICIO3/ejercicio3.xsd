@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="facturas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="factura" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="num_linea" type="xs:string"/>
+              <xs:element name="cod_cliente" type="xs:string"/>
+              <xs:element name="articulo">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="cod_articulo" type="xs:string"/> 
+                    <xs:element name="nombre_articulo" type="xs:string"/> 
+                    <xs:element name="cantidad" type="xs:string"/>                  
+                    <xs:element name="precio_unitario" type="xs:string"/>    
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>          
+            <xs:attribute name="facturaID" type="xs:integer" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

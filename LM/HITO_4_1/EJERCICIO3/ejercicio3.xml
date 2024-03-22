@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE facturas SYSTEM "ejercicio3.dtd">
+<facturas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/D:/ETHAZI/LENGUAJES/HITO_4_1/EJERCICIO3/ejercicio3.xsd">   
+        <factura facturaID="0000">     
+              <num_linea>1</num_linea>     
+              <cod_cliente>1</cod_cliente>     
+              <articulo>       
+                    <cod_articulo>0001</cod_articulo>       
+                    <nombre_articulo>CD</nombre_articulo>       
+                    <cantidad>2</cantidad>       
+                    <precio_unitario>2200</precio_unitario>     
+              </articulo>   
+        </factura>     
+        <factura facturaID="0001">     
+              <num_linea>2</num_linea>     
+              <cod_cliente>2</cod_cliente>     
+              <articulo>       
+                    <cod_articulo>0002</cod_articulo>       
+                    <nombre_articulo>Enchufe</nombre_articulo>       
+                    <cantidad>4</cantidad>       
+                    <precio_unitario>2400</precio_unitario>     
+              </articulo>   
+        </factura>   
+        <factura facturaID="0002">     
+              <num_linea>3</num_linea>     
+              <cod_cliente>2</cod_cliente>     
+              <articulo>       
+                    <cod_articulo>0003</cod_articulo>       
+                    <nombre_articulo>Pilas</nombre_articulo>       
+                    <cantidad>6</cantidad>       
+                    <precio_unitario>2800</precio_unitario>     
+              </articulo>   
+        </factura> 
+</facturas> 

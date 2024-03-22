@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persona [ 
+    <!ELEMENT persona (nombre_apellido, profesion+)>
+    <!ELEMENT nombre_apellido (nombre, apellido)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellido (#PCDATA)>
+    <!ELEMENT profesion (#PCDATA)> 
+]>
+<persona xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/D:/ETHAZI/LENGUAJES/HITO_4_1/EJERCICIO5/ejercicio5.xsd">   
+    <nombre_apellido>     
+        <nombre>Alan</nombre>     
+        <apellido>Turing</apellido>   
+    </nombre_apellido>   
+    <profesion>científico informático</profesion>   
+    <profesion>matemático</profesion>   
+    <profesion>criptógrafo</profesion> 
+</persona>

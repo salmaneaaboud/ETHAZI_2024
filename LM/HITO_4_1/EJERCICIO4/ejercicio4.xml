@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE libro SYSTEM "libro.dtd"> 
+<libro isbn="isbn-861003-11-0" fecha="Noviembre 1999" paginas="750" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/D:/ETHAZI/LENGUAJES/HITO_4_1/EJERCICIO4/libro.xsd">   
+      <titulo>Aprendiendo XML</titulo>   
+      <resumen>Metodo de aprender XML</resumen>   
+      <categorias>     
+            <categoria>Internet</categoria>     
+            <categoria>Publicacion Web</categoria>     
+            <categoria>XML</categoria>   
+      </categorias>   
+      <precio moneda="eur">34.5</precio> 
+</libro>

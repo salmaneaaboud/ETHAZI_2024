@@ -1,0 +1,13 @@
+<!ELEMENT libro (titulo, resumen, categorias, precio)>
+<!ATTLIST libro
+    isbn CDATA #REQUIRED
+    fecha CDATA #REQUIRED
+    paginas CDATA #REQUIRED
+>
+
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT resumen (#PCDATA)>
+<!ELEMENT categorias (categoria+)>
+<!ELEMENT categoria (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST precio moneda CDATA #REQUIRED>

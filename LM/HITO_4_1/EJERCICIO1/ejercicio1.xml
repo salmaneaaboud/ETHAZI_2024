@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE poemas SYSTEM "ejercicio1.dtd">
+<poemas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/D:/ETHAZI/LENGUAJES/HITO_4_1/EJERCICIO1/ejercicio1.xsd">
+          <poema fecha="siglo XVI">
+                  <titulo>Soneto XXIII</titulo>
+                  <verso>En la quietud de la noche oscura,</verso>
+                  <verso>brilla la luna con su luz segura,</verso>
+                  <verso>y en el silencio, el alma se apresura.</verso>
+          </poema>
+          <poema fecha="siglo XVII">
+                  <titulo>A una rosa</titulo>
+                  <verso>Rosa de amor, en tu fragancia pura,</verso>
+                  <verso>la belleza del mundo se asegura,</verso>
+                  <verso>y en tu dulzura el corazón perdura.</verso>
+          </poema>
+          <poema fecha="siglo XVI">
+                  <titulo>Soneto de repente</titulo>
+                  <verso>Repentinamente, el alma se alza y vuela,</verso>
+                  <verso>buscando en el cielo la estrella que consuela,</verso>
+                  <verso>y en el éter eterno, la esperanza sella.</verso>
+          </poema>
+</poemas>

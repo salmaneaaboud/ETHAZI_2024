@@ -1,0 +1,17 @@
+<!ELEMENT libros (libro)+> 
+<!ELEMENT libro ( titulo | disponibilidad | autor | formato | publicado | precio | descuento | link )*>
+<!ELEMENT titulo ( #PCDATA )> 
+<!ELEMENT disponibilidad EMPTY> 
+<!ELEMENT autor ( #PCDATA )>
+<!ELEMENT formato ( #PCDATA )>
+<!ELEMENT publicado ( #PCDATA )> 
+<!ELEMENT precio EMPTY>
+<!ELEMENT descuento EMPTY> 
+<!ELEMENT link EMPTY> 
+
+<!ATTLIST precio cantidad CDATA #REQUIRED> 
+<!ATTLIST precio moneda CDATA #REQUIRED>
+<!ATTLIST descuento cantidad CDATA #REQUIRED>
+<!ATTLIST disponibilidad tiempo CDATA #REQUIRED>
+<!ATTLIST disponibilidad unidad CDATA #REQUIRED>
+<!ATTLIST link href CDATA #REQUIRED>
